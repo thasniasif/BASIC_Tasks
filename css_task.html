@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registeration_form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+
+    .div1{
+    border:solid 1px;
+height:600px;
+width:100%;
+margin-top:80px;
+margin-bottom:80px;
+background:url("https://wallpaperaccess.com/full/3596203.jpg ") no-repeat;
+background-size:cover;
+
+
+    }
+    .maindiv{
+    border:solid 1px;
+    border-radius: 25px ;
+    width:904px;
+    height:500px;
+     margin:50px;
+    margin-left:200px;
+    }
+    .div2,.div3{
+
+    border: 25px;
+    width:452px;
+    height:500px;
+
+    float:left;
+    }
+    .div2{
+    background:url("https://wallpaperaccess.com/full/3596203.jpg ") no-repeat;
+background-size:cover;
+ border-top-left-radius:25px;
+      border-bottom-left-radius:25px;
+
+    }
+    .div3{
+    background:white;
+     border-top-right-radius:25px;
+      border-bottom-right-radius:25px;
+    }
+    #h1{
+    padding-top:10px;
+    color:white;
+    font-size:50px;
+    padding-left:50px;
+
+    }
+    #p1{
+     color:white;
+       padding-left:50px;
+       font-size:15px;
+
+    }
+
+    #h2,#p2,#p3{
+    padding-left:40px;
+    }
+    #p2,#p3{
+    font-size:14px;
+    }
+
+.ndiv,.ediv,.pdiv,.phdiv{
+border-bottom:solid grey 1px;
+height:22px;
+margin-left:40px;
+margin-right:30px;
+
+}
+.ediv,.pdiv,.phdiv,.btndiv{
+padding-top:30px;
+}
+
+
+input[type=text],input[type=password]{
+border:white;
+}
+
+input[type=text],input[type=password]:focus{
+outline:0;
+padding-left:10px;
+}
+.chdiv{
+padding-top:8px;
+padding-left:40px;
+}
+.btndiv{
+
+padding-left:300px;
+}
+input[type=submit]{
+cursor:pointer;
+border-radius:25px;
+width:100px;
+height:30px;
+font-size:12px;
+color:white;
+background-color:rgb(255,0,0);
+border-color:transparent;
+}
+a{
+text-decoration:none;
+}
+.p3div{
+
+height:20px;
+}
+.fdiv{
+padding-top:5px;
+
+}
+.btnf,.btnt,.btng{
+margin-left:40px;
+float:left;
+border-radius:25px;
+color:white;
+cursor:pointer;
+width:90px;
+height:20px;
+border:transparent;
+}
+.btnf{
+background-color:DarkBlue;
+}
+.btnt{
+background-color:DodgerBlue;
+
+}
+.btng{
+background-color:rgb(224,0,0);
+}
+.numdiv{
+boder:solid 1px;
+height:10px;
+padding-left:180px;
+padding-top:30px;
+}
+
+  </style>
+</head>
+<body>
+<form action="nextpage.html">
+<div class="div1">
+    <div class="maindiv">
+    <div class="div2">
+        <div>
+        <h1 id="h1"> Hello<br> World!!!</h1>
+            <p id="p1">Lorem ipsum dolor sit amet,consectetur<br>adipiscing elit sed egetbaliquet.</p>
+            </div>
+        <div class="numdiv">
+
+            <label style="font-size:23px;color:white;" for="num">601 x 864</label>
+        </div>
+     </div>
+    <div class="div3">
+        <h1 id="h2"><b>Register</b></h1>
+        <p id="p2">Dont have an account?<a href="new_account">Create your account,</a><br>it takes less than a minute</p>
+
+        <div  class="ndiv">
+        <label style="font-size:12px;" for="name"><b>NAME</b></label>
+        <input type="text" id="name">
+        </div>
+    <div  class="ediv">
+        <label style="font-size:12px;" for="email"><b>EMAIL ID</b></label>
+        <input type="text" id="email">
+    </div>
+     <div  class="phdiv">
+        <label style="font-size:12px;" for="phone"><b>PHONE NO</b></label>
+        <input type="text" id="phone" placeholder="+91">
+    </div>
+     <div  class="pdiv">
+        <label style="font-size:12px;" for="password"><b>PASSWORD</b></label>
+        <input type="password" id="password">
+    </div>
+        <div class="chdiv">
+            <input type="checkbox" id="check">
+            <label style="font-size:12px;" for="check"> I accept terms and conditions & privacy policy</label><br>
+         </div>
+    <div class="btndiv">
+        <input type="submit" value="LOGIN">
+
+    </div>
+        <div class="p3div">
+            <p id="p3">Login with social media</p><br>
+        </div>
+        <div class="fdiv">
+           <a href="facebook.com">
+            <button class="btnf"><i class="fa fa-facebook"></i>  <small>Facebook</small></button>
+               </a>
+        </div>
+        <div class="tdiv">
+           <a href="twitter.com">
+            <button class="btnt"><i class="fa fa-twitter"></i>  <small>Twitter</small></button>
+               </a>
+        </div>
+        <div class="gdiv">
+           <a href="google.com">
+            <button class="btng"><i class="fa fa-google"></i>  <small>Google+</small></button>
+               </a>
+        </div>
+
+
+
+
+    </div>
+
+        </div>
+
+
+
+</div>    
+   
+        
+</form>
+</body>
+</html>
